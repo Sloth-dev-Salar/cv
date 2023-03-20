@@ -1,0 +1,178 @@
+Body{
+    background-color:whitesmoke;
+    margin: 0;
+    font-family: verdana;
+    
+}
+
+.top-container{
+    
+    height: 640px;
+    background-color:#EAF6F6;
+    text-align: center;
+}
+#cloud{
+    position: absolute;
+    right: 320px;
+    top: 50px;
+}
+#mountain{
+position: relative;
+top: 200px;
+}
+#cloud2{
+    position: absolute;
+    left:270px;
+    bottom: 330px;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    top: 170px;
+    font-family: 'Sacramento', cursive;
+    color: #00c3ff;
+    line-height: 8px;
+    font-size: 5rem;
+
+}
+#top-text{
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    top: 203px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    color: #000000;
+}
+.middle-container{
+text-align: center;
+}
+#profile-image{
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+#profile-image:hover{
+    cursor: pointer;
+}
+#nav{
+    position: absolute;
+    list-style: none;
+    left: 70px;
+    top: 15px;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    margin: 10px;
+    font-family: cursive;
+}
+li:hover{
+    cursor: pointer;
+}
+.skill-image1{
+    border-radius: 2000px;
+    float: left;
+    margin: 40px;
+    width: 35%;
+}
+.skill-row1{
+    width: 50%;
+    margin: 0 auto 40px auto;
+    line-height: 40px;
+    position: relative;
+    right: 65px;
+    
+}
+.skill-row2{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    line-height: 40px;
+    position: relative;
+    right: 40px;
+    height: 360px;
+
+    
+}
+
+.skill-image2{ 
+    position: relative;
+    left: 680px;
+    bottom: 180px;
+    width: 35%;
+    border-radius: 2000px;
+    
+}
+.upper-skill-text{
+    position: relative;
+    top: 30px;
+    
+    
+}
+.lower-skill-text{
+    position: relative;
+    top: 44px;
+    float: left;
+    
+}
+
+.lower-skill-text-head{
+    position: relative;
+    top: 44px;
+    right: 153px;
+}
+#head1{
+    margin-bottom: 40px;
+
+}
+#head1{
+    text-align: center;
+    font: optional;color: #2988b4e3;
+    font-family: cursive;
+}
+.contact-me{
+    text-align: center;
+}
+#bottom-text{
+    font-family: cursive;
+}
+.btn{
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    background-color: aqua;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.bottom-container{
+    background-color:#66BFBF ;
+    height: 140px;
+    margin: 0;
+    text-align: center;
+}
+.footer-link{
+    color: #11999E;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    margin-right: 8px;
+    font-family: cursive;
+
+}
+.footer{
+    position: relative;
+    top: 60px;
+    color: white;
+    
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px;
+    width: 15%;
+}
