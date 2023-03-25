@@ -154,8 +154,7 @@ h2{
         text-align: center;
     }
     #iphone-img{
-        dispaly: none;
-        visibility : hidden;
+        display: none;
     }
     #features{
         position: static;
