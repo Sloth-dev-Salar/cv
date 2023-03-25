@@ -155,6 +155,7 @@ h2{
     }
     #iphone-img{
         dispaly: none;
+        visibility : hidden;
     }
     #features{
         position: static;
