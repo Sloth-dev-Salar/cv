@@ -1,0 +1,179 @@
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    line-height: 1.5;
+    font-weight:900;
+    padding-top:20%;
+}
+.container-fluid{
+    padding-right: 15%;
+    padding-left:15%;
+    padding-top:3%;
+    height: 87%;
+    
+}
+ul{
+    margin-left: auto;
+}
+
+.buttons{
+    padding-top: 15%;
+}
+.iphone{
+    margin-left:20%;
+    margin-top:8%;
+    height:18%;
+    width: 20%;
+    
+    
+}
+#iphone-img{
+    height:350%;
+    transform: rotate(16deg);
+    z-index: 0;
+    position: relative;
+    top: 4%;
+    left:20%;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.nav-link{
+    color: white;
+    font-size: 1.3rem;
+}
+.nav-item{
+    margin-right: 3%;
+}
+
+#features{
+    
+    margin-bottom:8%;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+    padding-top: 10%;
+    
+}
+
+h3{
+    font-weight: 700;
+}
+ .icon1{
+    margin-bottom: 2.5%;
+} 
+.icon1:hover{
+    color: red !important;
+    cursor: pointer;
+}
+
+        /* Testimonial section */
+
+#testimonials{
+text-align: center;
+margin-bottom:5%;
+height: 60%;
+padding-top: 4%;
+
+}
+.testimonial-text{
+    font-weight : 900;
+    margin-bottom:7%;
+    font-size: 2.1rem;
+    font-family: "ubuntu";
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 90%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    text-align: center;
+    
+}
+.carousel-item{
+    padding-left: 20%;
+    padding-right: 20%;  
+    text-align: center;
+}
+em{
+    position: relative;
+    bottom: 1.2rem;
+}
+     /* pricing section */
+.card-body{
+    text-align: center;
+}
+.card-header{
+    text-align: center;
+}
+#pricing{
+    text-align: center;
+    padding-left: 14%;
+    padding-right: 14%;
+    margin-bottom: 5%;
+}
+.pricing-container{
+    margin-top: 8%;
+}
+h2{
+    font-family: "ubuntu";
+    font-size: 2.1rem;
+}
+              /* End section */
+#cta{
+    
+    height:40%;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 2%;
+    
+    
+}
+.cta-text{
+    font-size: 2.4rem;
+    margin-bottom: 3%;
+}
+.cta-button{
+    margin-right: 2%;
+}
+
+                  /* footer */
+#footer{
+    text-align: center;
+}
+.footer-icon{
+    margin-right:2%;
+    margin-bottom: 2%
+}
+@media (max-width: 991px)  {
+    #title{
+        text-align: center;
+    }
+    #iphone-img{
+        transform: rotate(0deg);
+        position: static;
+        
+    }
+    #features{
+        position: static ;
+    }
+    .container-fluid{
+        height: 160%;
+    }
+    .carousel-inner{
+        margin-top: 10%;
+        
+    }
+    .card{
+        margin-bottom: 7%;
+    }
+    .cta-text{
+        margin-top:5%;
+    }
+
+}
+
