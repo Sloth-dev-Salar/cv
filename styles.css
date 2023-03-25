@@ -154,12 +154,10 @@ h2{
         text-align: center;
     }
     #iphone-img{
-        transform: rotate(0deg);
-        position: static;
         dispaly: none;
     }
     #features{
-        position: static ;
+        position: static;
     }
 
     .carousel-inner{
