@@ -156,14 +156,12 @@ h2{
     #iphone-img{
         transform: rotate(0deg);
         position: static;
-        
+        dispaly: none;
     }
     #features{
         position: static ;
     }
-    .container-fluid{
-        height: 160%;
-    }
+
     .carousel-inner{
         margin-top: 10%;
         
