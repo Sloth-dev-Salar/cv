@@ -1,71 +1,64 @@
-h1{
+            /* Navbar */
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    margin-right: 3%;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.3rem;
+}
+                /* Title */
+.big-heading{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.7rem;
     line-height: 1.5;
     font-weight:900;
     padding-top:20%;
 }
-.container-fluid{
-    padding-right: 15%;
-    padding-left:15%;
-    padding-top:3%;
-    height: 87%;
-    
-}
-ul{
-    margin-left: auto;
-}
 
-.buttons{
-    padding-top: 15%;
-}
-.iphone{
-    margin-left:20%;
-    margin-top:8%;
-    height:18%;
-    width: 20%;
-    
-    
-}
 #iphone-img{
-    height:350%;
+    height:65%;
     transform: rotate(16deg);
     z-index: 0;
     position: relative;
     top: 4%;
     left:20%;
 }
-.navbar-brand{
-    font-family: "ubuntu";
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-.nav-link{
-    color: white;
-    font-size: 1.3rem;
-}
-.nav-item{
-    margin-right: 3%;
+
+.download-buttons{
+    padding-top: 15%;
 }
 
+.nav-title-container{
+    padding-right: 15%;
+    padding-left:15%;
+    padding-top:3%;
+    height: 87%;
+}
+
+                /* Features */
 #features{
-    
     margin-bottom:8%;
     text-align: center;
-    z-index: 1;
     position: relative;
     background-color: white;
-    padding-top: 10%;
-    
+    padding-top: 10%;   
 }
 
-h3{
+.feature-text{
     font-weight: 700;
 }
- .icon1{
+
+.feauture-icon{
     margin-bottom: 2.5%;
 } 
-.icon1:hover{
+.feauture-icon:hover{
     color: red !important;
     cursor: pointer;
 }
@@ -93,22 +86,22 @@ padding-top: 4%;
     text-align: center;
     
 }
-.carousel-item{
+.testimonial-text-container{
     padding-left: 20%;
     padding-right: 20%;  
     text-align: center;
 }
-em{
+.testimonial-user{
     position: relative;
     bottom: 1.2rem;
 }
      /* pricing section */
-.card-body{
-    text-align: center;
+
+.pricing-sec-head{
+    font-family: "ubuntu";
+    font-size: 2.1rem;
 }
-.card-header{
-    text-align: center;
-}
+ 
 #pricing{
     text-align: center;
     padding-left: 14%;
@@ -118,11 +111,16 @@ em{
 .pricing-container{
     margin-top: 8%;
 }
-h2{
-    font-family: "ubuntu";
-    font-size: 2.1rem;
+
+.pricing-header{
+    text-align: center;
 }
-              /* End section */
+
+.pricing-text{
+    text-align: center;
+}
+
+              /* Cta Section */
 #cta{
     
     height:40%;
@@ -130,8 +128,6 @@ h2{
     text-align: center;
     padding-top: 4%;
     margin-bottom: 2%;
-    
-    
 }
 .cta-text{
     font-size: 2.4rem;
@@ -149,7 +145,11 @@ h2{
     margin-right:2%;
     margin-bottom: 2%
 }
+
+                /* Responsive dseign */
+
 @media (max-width: 991px)  {
+                /* Title responsive */
     #title{
         text-align: center;
     }
@@ -159,14 +159,15 @@ h2{
     #features{
         position: static;
     }
-
-    .carousel-inner{
-        margin-top: 10%;
-        
+                /* Testimonial responsive */
+    .testimonial-text-container{
+        margin-top: 10%;       
     }
-    .card{
+                /* Pricing responsive */
+    .pricing-card{
         margin-bottom: 7%;
     }
+                    /* Cta responsive */
     .cta-text{
         margin-top:5%;
     }
